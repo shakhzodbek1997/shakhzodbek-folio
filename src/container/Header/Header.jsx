@@ -41,6 +41,7 @@ const Header = () => {
                                 <div className="i-title-item">UI/UX Designer</div>
                                 <div className="i-title-item">Freelancer</div>
                                 <div className="i-title-item">Java, Spring</div>
+                                <div className="i-title-item">Developer</div>
                             </div>
                         </div>
                     </div>
