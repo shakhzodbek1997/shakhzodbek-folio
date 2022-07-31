@@ -34,11 +34,7 @@ const About = () => {
                     know more about me, you can download my resume.
                 </p>
 
-                <a 
-                  href="Shakhzod_CV" 
-                  download="Shakhzod Yuldoshov's CV.pdf" 
-                  className="pulsingButton"
-                >
+                <a href="Shakhzod_CV.pdf" download="Shakhzod Yuldoshov's CV.pdf" className="pulsingButton">
                     Get Resume
                 </a>
 
