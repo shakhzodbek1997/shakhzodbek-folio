@@ -24,6 +24,7 @@ import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
+import profile2 from '../assets/profile2.png'
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 
@@ -34,8 +35,10 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import me from '../assets/me.jpg'
 
 export default {
+  me,
   email,
   mobile,
   api,
@@ -60,6 +63,7 @@ export default {
   about03,
   about04,
   profile,
+  profile2,
   circle,
   logo,
   adidas,
