@@ -40,7 +40,7 @@ const Footer = () => {
 
     return (
         <>
-            <h2 className="head-text">take a coffe & chat with me</h2>
+            <h2 className="head-text">Get in Touch</h2>
 
             <div className="app__footer-cards">
               <div className="app__footer-card">
@@ -57,10 +57,10 @@ const Footer = () => {
             {!isFormSubmited ? 
                 <div className="app__footer-form app__flex">
                 <div className="app__flex">
-                    <input className="p-text" type="text" placeholder="Your Name" name="name" value={name} onChange={handleChangeInput}/>
+                    <input className="p-text" type="text" data-rule="required" placeholder="Your Name" name="name" value={name} onChange={handleChangeInput}/>
                 </div>
                 <div className="app__flex">
-                    <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput}/>
+                    <input className="p-text" type="email" data-rule="required" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput}/>
                 </div>
 
                 <div>
@@ -69,6 +69,7 @@ const Footer = () => {
                     placeholder="Your Message"
                     value={message}
                     name="message"
+                    data-rule="required"
                     onChange={handleChangeInput}
                     />
                 </div>
