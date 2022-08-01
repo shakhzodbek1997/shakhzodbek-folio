@@ -80,17 +80,20 @@
           }
           
           @keyframes move {
-            25% {
+            20% {
               transform: translateY(-50px);
             }
-            50% {
+            40% {
               transform: translateY(-100px);
             }
-            75% {
+            60% {
               transform: translateY(-150px);
             }
-            100% {
+            80% {
               transform: translateY(-200px);
+            }
+            100% {
+              transform: translateY(-250px);
             }
           }
           
@@ -102,11 +105,6 @@
             display: flex;
             align-items: center;
           } 
-        // p{
-        //     width: 100%;
-        //     text-transform: uppercase;
-        //     text-align: right;
-        // }
     }
 
     span{
