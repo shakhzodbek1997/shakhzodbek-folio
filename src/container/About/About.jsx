@@ -24,7 +24,7 @@ const About = () => {
                 <h3><span>Phone: </span> +48 575-829-114 </h3>
                 
                 <p className="a-desc">
-                    I am a passionate middle Full Stack Developer
+                    I am a passionate Full Stack Developer
                     with strong knowledge and problem solving skills.
                     I have practical experience with front end technologies
                     like JavaScript, React.js, HTML, CSS, Sass 
