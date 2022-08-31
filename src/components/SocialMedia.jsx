@@ -42,7 +42,7 @@ const SocialMedia = () => {
         <a
           target={"_blank"}
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/shakhzod-yuldoshov-5bb8aa190/"
+          href="https://www.linkedin.com/in/shakhzod-yuldoshov"
         >
           <BsLinkedin />
         </a>
