@@ -8,65 +8,65 @@ import {
 } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 
-const SocialMedia = () => {
+const SocialLinks = () => {
   return (
-    <div className="app__social">
-      <div>
+    <div className="app__socialLinks">
+    
         <a
           target={"_blank"}
           rel="noreferrer"
           href="https://telegram.me/ShYuldoshov"
         >
-          <BsTelegram />
+          <BsTelegram className="socialLinkIcon"/>
         </a>
-      </div>
-      <div>
+    
+    
         <a
           target={"_blank"}
           rel="noopener noreferrer"
           href="https://www.facebook.com/shakhzod.yuldoshov"
         >
-          <FaFacebookF />
+          <FaFacebookF className="socialLinkIcon"/>
         </a>
-      </div>
-      <div>
+    
+    
         <a
           target={"_blank"}
           rel="noopener noreferrer"
           href="https://www.instagram.com/shakhzod_yuldoshov"
         >
-          <BsInstagram />
+          <BsInstagram className="socialLinkIcon"/>
         </a>
-      </div>
-      <div>
+    
+    
         <a
           target={"_blank"}
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/shakhzod-yuldoshov"
         >
-          <BsLinkedin />
+          <BsLinkedin className="socialLinkIcon"/>
         </a>
-      </div>
-      <div>
+    
+    
         <a
           target={"_blank"}
           rel="noopener noreferrer"
           href="https://wa.me/+48575829114"
         >
-          <BsWhatsapp />
+          <BsWhatsapp className="socialLinkIcon" />
         </a>
-      </div>
-      <div>
+    
+    
         <a
           target={"_blank"}
           rel="noopener noreferrer"
           href="https://github.com/shakhzodbek1997"
         >
-          <BsGithub />
+          <BsGithub className="socialLinkIcon"/>
         </a>
-      </div>
     </div>
+  
   );
 };
 
-export default SocialMedia;
+export default SocialLinks;
